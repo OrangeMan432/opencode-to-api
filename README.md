@@ -21,10 +21,10 @@
 opencode-to-api turns your [OpenCode CLI](https://opencode.ai) into a local OpenAI-compatible API server. Point any OpenAI-supported client at it and access all your configured models — free tier included.
 
 ```
-┌─────────────┐     ┌──────────────────┐     ┌─────────────┐
-│   Cursor    │────▶│  opencode-to-api │────▶│   OpenCode   │
-│ Claude Code │     │   :8083/v1       │     │   Backend    │
-│  OpenClaw   │     └──────────────────┘     └─────────────┘
+┌─────────────┐      ┌──────────────────┐     ┌─────────────┐
+│   Cursor    │────▶│  opencode-to-api │────▶│   OpenCode  │
+│ Claude Code │      │   :8083/v1       │     │   Backend   │
+│  OpenClaw   │      └──────────────────┘     └─────────────┘
 └─────────────┘
 ```
 
